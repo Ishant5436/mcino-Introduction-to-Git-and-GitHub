@@ -1,0 +1,8 @@
+$ git branch -a -vv
+* bug-fix-revert                8b34f9d [origin/bug-fix-revert] Revert "fix(readme): fix typo in footer copyright year 2022 to 2023"
+  bug-fix-typo                  d0fffb5 [origin/bug-fix-typo] fix(readme): fix typo in footer copyright year 2022 to 2023
+  main                          d0fffb5 [origin/main] fix(readme): fix typo in footer copyright year 2022 to 2023
+  remotes/origin/HEAD           -> origin/main
+  remotes/origin/bug-fix-revert 8b34f9d Revert "fix(readme): fix typo in footer copyright year 2022 to 2023"
+  remotes/origin/bug-fix-typo   d0fffb5 fix(readme): fix typo in footer copyright year 2022 to 2023
+  remotes/origin/main           d0fffb5 fix(readme): fix typo in footer copyright year 2022 to 2023

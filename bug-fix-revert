@@ -1,0 +1,28 @@
+$ curl -s https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pulls/13270 | jq -r '.head.repo.clone_url'
+https://github.com/Ishant5436/mcino-Introduction-to-Git-and-GitHub.git
+
+$ curl -s https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pulls/13270
+{
+  "url": "https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pulls/13270",
+  "html_url": "https://github.com/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pull/13270",
+  "number": 13270,
+  "state": "open",
+  "title": "Bug fix revert",
+  "head": {
+    "ref": "bug-fix-revert",
+    "repo": {
+      "id": 1442222458,
+      "name": "mcino-Introduction-to-Git-and-GitHub",
+      "full_name": "Ishant5436/mcino-Introduction-to-Git-and-GitHub",
+      "clone_url": "https://github.com/Ishant5436/mcino-Introduction-to-Git-and-GitHub.git",
+      "fork": true
+    }
+  },
+  "base": {
+    "ref": "main",
+    "repo": {
+      "name": "mcino-Introduction-to-Git-and-GitHub",
+      "full_name": "ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub"
+    }
+  }
+}
